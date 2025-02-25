@@ -38,8 +38,10 @@ Speaker Diarization pipeline based on OpenAI Whisper
 Python 3.12.2
 
 Install ffmpeg from gyan.dev. Then add the folder where ffmpeg.exe is located (e.g. C:\ffmpeg\bin) to the system variables PATH.
+https://www.gyan.dev/ffmpeg/builds/
 
 Install perl. It's a programming language like python. Strawberry perl worked fine for me.
+https://strawberryperl.com/
 
 Install Python 3.10.11. You can use later Python versions (e.g. 3.11, 3.12, etc), but 3.10.11 has given me no issues. There are later versions of 3.10 (e.g. 3.10.12) but there aren't binaries for windows and you have to build them yourself.
 Create a Python virtual environment for your project. It's a good way to keep Python versions and dependencies separate for each project. To do that go to the root folder where you want to create the virtual environment, e.g. C:\Users\Bill\PurePython_envs. Open cmd at that location (or cd there) and run this command to create the Python virtual environment with venv: "C:\Program Files\Python310\python.exe" -m venv <your_venv_name>. The first part of this command specifies which Python version we want to use for this venv. Then cd into the venv folder by running cd "C:\Users\Bill\PurePython_envs\<your_venv_name>" and activate the venv by running scripts\activate. This command needs to be run from the environment folder (C:\Users\Bill\PurePython_envs\<your_venv_name> in this case). You're already in that folder at this point in the instructions but I'm including it so you know how to activate it in the future. If the venv has been activated correctly you should see the name of the venv before the location in cmd, e.g. (<your_venv_name>) C:\Users\Bill\PurePython_envs\<your_venv_name>.
